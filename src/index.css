@@ -3,16 +3,20 @@
   font-family: "Be Vietnam Pro", serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #1a1a1a;
   background: url('./resources/hero-image.jpg') no-repeat;
   background-size: 100vw;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  background: url('./resources/hero-image.jpg') no-repeat;
+  background-size: 100vw;
+  background-color: #1a1a1a;
 }
 
 a {
@@ -161,7 +165,7 @@ hr{
   display: grid;
   grid-template-areas: "found search search" "form table table";
   background-color: #1a1a1a;
-  grid-template-columns: 20em 2fr 2fr;
+  grid-template-columns: 35vw 2fr 2fr;
   grid-template-rows: 60px 5fr;
   row-gap: 10px;
   padding: 10px;
