@@ -13,12 +13,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-body{
-  background: url('./resources/hero-image.jpg') no-repeat;
-  background-size: 100vw;
-  background-color: #1a1a1a;
-}
-
 a {
   font-weight: 500;
   color: #646cff;
@@ -35,6 +29,9 @@ body {
   min-width: 320px;
   min-height: 100vh;
   color: #D2D5DA;
+  background: url('./resources/hero-image.jpg') no-repeat;
+  background-size: 100vw;
+  background-color: #1a1a1a;
 }
 
 button {
@@ -165,7 +162,7 @@ hr{
   display: grid;
   grid-template-areas: "found search search" "form table table";
   background-color: #1a1a1a;
-  grid-template-columns: 35vw 2fr 2fr;
+  grid-template-columns: 25vw 5fr 5fr;
   grid-template-rows: 60px 5fr;
   row-gap: 10px;
   padding: 10px;
