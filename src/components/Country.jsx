@@ -24,7 +24,7 @@ const Country = () => {
       }
     };
     getData();
-  }, []);
+  }, [,params]);
 
   useEffect(() => {
     if (pais !== null) {
@@ -91,7 +91,7 @@ const Country = () => {
             <div>
               {neig !== null &&
                 neig.map((e) => (
-                  <div key={e.name.common} className="neighbours">
+                  <div key={e.name.common} onClick={() => navigate(`/${e.cca3}`) } className="neighbours">
                     <img src={e.flags.svg} alt="" />
                     <p>{e.name.common}</p>
                   </div>
